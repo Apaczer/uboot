@@ -30,7 +30,8 @@
 #include "../hitachi_tx18d42vm_lcd.h"
 #include "../ssd2828.h"
 //#include "logo_nxhope.h"
-#include "logo_nxhope2.h"
+//#include "logo_nxhope2.h"
+#include "logo_test.h"
 //#include "logo_bittboy.h"
 
 #include "simplefb_common.h"
