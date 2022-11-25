@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     # ARCH=arm and CROSS_COMPILE=arm-buildroot-linux-musleabi- env props are set in the docker image
     - name: configure
-      run: make miyoo_defconfig 
+      run: make miyoo_pocketgo_defconfig 
     - name: build
       run: make
     - uses: actions/upload-artifact@v2
@@ -31,7 +31,7 @@ jobs:
     - uses: actions/checkout@v2
     # ARCH=arm and CROSS_COMPILE=arm-miyoo-linux-uclibcgnueabi- env props are set in the docker image
     - name: configure
-      run: make miyoo_defconfig 
+      run: make miyoo_pocketgo_defconfig 
     - name: build
       run: make
     - uses: actions/upload-artifact@v2
